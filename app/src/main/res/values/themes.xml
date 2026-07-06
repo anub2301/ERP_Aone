@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.ERP_Aone" parent="Theme.MaterialComponents.Light" />
+</resources>

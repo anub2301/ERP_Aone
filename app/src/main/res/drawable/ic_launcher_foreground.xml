@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background of the foreground layer (optional, but we'll use paths) -->
+
+    <!-- Stylized 'A' - Left Leg -->
+    <path
+        android:pathData="M35,75 L54,35"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+
+    <!-- Stylized 'A' - Right Leg -->
+    <path
+        android:pathData="M54,35 L73,75"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+
+    <!-- Stylized 'A' - Crossbar (as a circuit line/bill detail) -->
+    <path
+        android:pathData="M42,60 H66"
+        android:strokeColor="#FF9800"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+
+    <!-- Electronics/IMEI/Tracking dots -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M35,75m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M73,75m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M54,35m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- A small 'bill' or 'document' hint -->
+    <path
+        android:pathData="M48,52 H60"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M48,56 H56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+
+</vector>
